@@ -5,7 +5,7 @@ This project implements a modular data pipeline to extract and process YouTube c
 **Pipeline Workflow**
 
   **1. Channel URL Extraction**
-    Fetches unprocessed channel URLs from the platforms table and checks if they contain a channel_id.
+    Fetches unprocessed channel URLs from the table and checks if they contain a channel_id.
 
   **2. Channel ID Retrieval**
     Extracts channel_id via API if missing and stores it in the channel_ids table.
@@ -30,3 +30,4 @@ Automatic extraction of channel_id from URLs.
 Efficient API pagination for large playlists.
 
 Structured storage in relational tables (channels, channel_ids, videos) for easy querying.
+
